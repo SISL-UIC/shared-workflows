@@ -44,7 +44,8 @@ runs:
         path: _shared-workflows-issues-update-project-status
         persist-credentials: false
 
-    - name: Get vault secrets
+    - id: get-secrets
+      name: Get vault secrets
       uses: ./_shared-workflows-issues-update-project-status/actions/get-vault-secrets
       with:
         common_secrets: |
@@ -59,8 +60,8 @@ runs:
     - id: get-token
       uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3
       with:
-        app-id: ${{ env.APP_ID }}
-        private-key: ${{ env.PRIVATE_KEY }}
+        app-id: ${{ fromJSON(steps.get-secrets.outputs.secrets).APP_ID }}
+        private-key: ${{ fromJSON(steps.get-secrets.outputs.secrets).PRIVATE_KEY }}
         owner: ${{ github.repository_owner }}
 
     - name: Update project item status
