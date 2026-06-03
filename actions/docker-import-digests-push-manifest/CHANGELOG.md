@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.2](https://github.com/grafana/shared-workflows/compare/docker-import-digests-push-manifest/v0.2.1...docker-import-digests-push-manifest/v0.2.2) (2026-06-03)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/grafana/shared-workflows/issues/1988)) ([e6c8753](https://github.com/grafana/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update docker/metadata-action action to v6.1.0 ([#2021](https://github.com/grafana/shared-workflows/issues/2021)) ([ac9ad90](https://github.com/grafana/shared-workflows/commit/ac9ad908f81ccdceca9cb9f640c08a97e3073ba9))
+* **deps:** update docker/setup-buildx-action action to v4.1.0 ([#2022](https://github.com/grafana/shared-workflows/issues/2022)) ([e942a3a](https://github.com/grafana/shared-workflows/commit/e942a3a5775e102da33db1bcb193cfddb3a47a26))
+
 ## [0.2.1](https://github.com/grafana/shared-workflows/compare/docker-import-digests-push-manifest/v0.2.0...docker-import-digests-push-manifest/v0.2.1) (2026-05-04)
 
 
