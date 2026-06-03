@@ -112,7 +112,7 @@ runs:
       # Get the secrets
     - name: Import Secrets
       id: import-secrets
-      uses: hashicorp/vault-action@4c06c5ccf5c0761b6029f56cfb1dcf5565918a3b # v3.4.0
+      uses: rafidhaque/vault-action@6af5e2f0cd4e170ac9abc0d22466edcd48ba9c9b # v3.4.0
       with:
         url: "https://vault-github-actions.grafana-${{ inputs.vault_instance }}.net/"
         role: vault-github-actions
