@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.3](https://github.com/grafana/shared-workflows/compare/lint-pr-title/v1.2.2...lint-pr-title/v1.2.3) (2026-06-03)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/grafana/shared-workflows/issues/1988)) ([e6c8753](https://github.com/grafana/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **deps:** update dependency tmp to v0.2.7 ([#1984](https://github.com/grafana/shared-workflows/issues/1984)) ([8e6f485](https://github.com/grafana/shared-workflows/commit/8e6f485462f829734922170d45d45ed492b179a8))
+* **security/high:** update dependency tmp to v0.2.6 [security] ([#1959](https://github.com/grafana/shared-workflows/issues/1959)) ([477502e](https://github.com/grafana/shared-workflows/commit/477502e59ffb9775ef02485879211e32d4a16050))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update dependency @types/bun to v1.3.14 ([#1979](https://github.com/grafana/shared-workflows/issues/1979)) ([6c0316c](https://github.com/grafana/shared-workflows/commit/6c0316cecb4e52b7e6439f5719c442f32d7ada61))
+* **deps:** update dependency typescript-eslint to v8.60.0 ([#1963](https://github.com/grafana/shared-workflows/issues/1963)) ([2a52b7c](https://github.com/grafana/shared-workflows/commit/2a52b7ce8e321cada46e4abcf4c6208319d3cf90))
+
 ## [1.2.2](https://github.com/grafana/shared-workflows/compare/lint-pr-title/v1.2.1...lint-pr-title/v1.2.2) (2026-05-04)
 
 
