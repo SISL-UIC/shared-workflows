@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/grafana/shared-workflows/compare/get-vault-secrets/v1.3.2...get-vault-secrets/v1.3.3) (2026-06-03)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/grafana/shared-workflows/issues/1988)) ([e6c8753](https://github.com/grafana/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
 ## [1.3.2](https://github.com/grafana/shared-workflows/compare/get-vault-secrets/v1.3.1...get-vault-secrets/v1.3.2) (2026-05-04)
 
 
