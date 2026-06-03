@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.3](https://github.com/grafana/shared-workflows/compare/dependabot-auto-triage/v1.1.2...dependabot-auto-triage/v1.1.3) (2026-06-03)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/grafana/shared-workflows/issues/1988)) ([e6c8753](https://github.com/grafana/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update dependency @types/bun to v1.3.14 ([#1979](https://github.com/grafana/shared-workflows/issues/1979)) ([6c0316c](https://github.com/grafana/shared-workflows/commit/6c0316cecb4e52b7e6439f5719c442f32d7ada61))
+* **deps:** update dependency typescript-eslint to v8.60.0 ([#1963](https://github.com/grafana/shared-workflows/issues/1963)) ([2a52b7c](https://github.com/grafana/shared-workflows/commit/2a52b7ce8e321cada46e4abcf4c6208319d3cf90))
+
 ## [1.1.2](https://github.com/grafana/shared-workflows/compare/dependabot-auto-triage/v1.1.1...dependabot-auto-triage/v1.1.2) (2026-05-04)
 
 
